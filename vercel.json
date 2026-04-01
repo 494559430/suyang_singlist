@@ -1,6 +1,4 @@
 {
-  "regions": ["hkg1"],  // 新加坡节点，对国内最友好
-  "github": {
-    "silent": true
-  }
+  "version": 2,
+  "regions": ["hkg1"]
 }
