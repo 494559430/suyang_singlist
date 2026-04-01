@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>苏扬歌单 - 古典黑金风格</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for a classical feel -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="logo">
+                <h1 class="music-title">MUSIC</h1>
+                <p class="subtitle">听问 谁爱你 模 bliss</p>
+            </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="搜索歌曲..." autocomplete="off">
+                <span class="search-icon">🔍</span>
+            </div>
+        </header>
+
+        <!-- Main Layout -->
+        <div class="main-layout">
+            <!-- Song List Sections -->
+            <div class="song-sections" id="songSections">
+                <!-- Categories will be dynamically rendered here -->
+            </div>
+
+            <!-- Side Banner / Artist Image Area -->
+            <aside class="artist-side">
+                <div class="artist-name-vertical">苏扬</div>
+                <div class="playlist-label">歌单</div>
+                <div class="status-badge">
+                    <span>待续</span>
+                    <span>未完</span>
+                </div>
+                <!-- Placeholder for the artist image -->
+                <div class="artist-image-container">
+                    <!-- In a real scenario, this would be an <img> tag -->
+                    <div class="artist-placeholder"></div>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
